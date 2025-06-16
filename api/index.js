@@ -17,6 +17,9 @@ mongoose
     console.log(err);
   });
 
+  console.log('MONGO URI:', process.env.MONGO);
+
+
   const __dirname = path.resolve();
 
 const app = express();
